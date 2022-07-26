@@ -41,7 +41,7 @@
             "-": 1,
         };
 
-        db.get("chat")
+        db.get("88hN&0u$4tJjXGQ64dhBM4sC8$OWxN")
             .map(match)
             .once(async (data, id) => {
                 if (data) {
@@ -71,7 +71,7 @@
         const secret = await SEA.encrypt(newMessage, "#foo");
         const message = user.get("all").set({ what: secret });
         const index = new Date().toISOString();
-        db.get("chat").get(index).put(message);
+        db.get("88hN&0u$4tJjXGQ64dhBM4sC8$OWxN").get(index).put(message);
         newMessage = "";
         canAutoScroll = true;
         autoScroll();

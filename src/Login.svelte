@@ -17,6 +17,10 @@
             }
         });
     }
+
+    function redirect() {
+        window.location.href = "https://github.com/danieltyukov/gobta";
+    }
 </script>
 
 <label for="username">Username</label>
@@ -27,3 +31,4 @@
 
 <button class="login" on:click={login}>Login</button>
 <button class="login" on:click={signup}>Sign Up</button>
+<button class="project" on:click={redirect}>Project Repo</button>
