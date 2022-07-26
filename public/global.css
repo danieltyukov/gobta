@@ -162,6 +162,12 @@ button:disabled {
 	background: #1a1520;
 }
 
+.project {
+
+	margin: 1rem 0 0;
+	background: #181717;
+}
+
 label {
 	color: white;
 	margin: 0.5rem 0;
